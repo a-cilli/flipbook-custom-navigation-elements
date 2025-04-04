@@ -20,7 +20,7 @@ export default function Home() {
   // Ref to hold flipbook instance
   const flipbookInstanceRef = useRef(null);
 
-  const baseURL = "https://viewer.ipaper.io/demo-flipbooks/flipbooks/home-kitchen-2/";
+  const baseURL = "https://viewer.ipaper.io/demo-flipbooks/plain/home-kitchen/";
 
   useEffect(() => {
     // Function to initialize iPaperJsApi for your myFlipbook iframe
